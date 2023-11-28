@@ -24,15 +24,15 @@ public class Calculator {
         // purchaseAmount - сумма покупки
         // discountAmount - размер скидки
         if (purchaseAmount < 0){
-            throw new IllegalArgumentException("Error: Negative purchase amount");
+            throw new ArithmeticException("Error: Negative purchase amount");
         }
 
         if (discountAmount < 0){
-            throw new IllegalArgumentException("Error: Negative discount");
+            throw new ArithmeticException("Error: Negative discount");
         }
 
         if (discountAmount > 100){
-            throw new IllegalArgumentException("Error: The discount should not be more than 100% ");
+            throw new ArithmeticException("Error: The discount should not be more than 100% ");
         }
 
         double discount = 1 - (double) discountAmount/100;
