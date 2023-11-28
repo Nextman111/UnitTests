@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add Calculator discount method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminar1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seminar1/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar1/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <recent name="seminars.first.seminar1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.seminar1.Main">
+  <component name="RunManager" selected="JUnit.CalculatorTest.calculatingDiscountIncorrectDiscount">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -84,6 +86,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.calculatingDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar1" />
+      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
+      <option name="METHOD_NAME" value="calculatingDiscount(double,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.calculatingDiscountIncorrectDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar1" />
+      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
+      <option name="METHOD_NAME" value="calculatingDiscountIncorrectDiscount(double,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,39 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testDisabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar1" />
-      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testDisabled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1Test.testMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1Test" />
-      <option name="METHOD_NAME" value="testMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.calculatingDiscountIncorrectDiscount" />
+        <item itemvalue="JUnit.CalculatorTest.calculatingDiscount" />
         <item itemvalue="Application.seminar1.Main" />
         <item itemvalue="JUnit.CalculatorTest.testAssertArrayEquals" />
         <item itemvalue="JUnit.CalculatorTest.testAssertTrue" />
-        <item itemvalue="JUnit.CalculatorTest.testDisabled" />
-        <item itemvalue="JUnit.Task1Test.testMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701157004611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Calculator discount method">
+      <created>1701157277184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701157277184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -35,8 +35,8 @@ public class Calculator {
             throw new ArithmeticException("Error: The discount should not be more than 100% ");
         }
 
-        double discount = 1 - (double) discountAmount/100;
+        double discountCoef = 1 - (double) discountAmount/100;
 
-        return discount ==0 ? purchaseAmount : purchaseAmount * discount; // Метод должен возвращать сумму покупки со скидкой
+        return purchaseAmount * discountCoef; // Метод должен возвращать сумму покупки со скидкой
     }
 }

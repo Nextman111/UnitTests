@@ -1,9 +1,11 @@
 package seminar1;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 class CalculatorTest {
@@ -104,4 +106,44 @@ class CalculatorTest {
         int[] actual = {1, 2, 3};
         assertArrayEquals(expected, actual);
     }
+
+    @ParameterizedTest
+    @CsvSource(
+        value = {
+                "0 , 0",
+                "0, 100",
+                "0, 10 ",
+                "10.0 , 100",
+                "100.0, 10",
+        }
+    )
+    @DisplayName("Correct: Цена >= 0,  0 >= Скидка <= 100")
+    void calculatingDiscount(double purchaseAmount, int discountAmount) {
+        double discountCoef = 1 - (double) discountAmount/100;
+        assertEquals(
+                discountCoef*purchaseAmount,
+                Calculator.calculatingDiscount(purchaseAmount, discountAmount)
+        );
+    }
+
+    @ParameterizedTest
+    @CsvSource(
+            value = {
+                    "0 , -1",
+                    "-45 , -1",
+                    "10.0 , -100",
+                    "-30, 35",
+                    "100, 300 ",
+            }
+    )
+    @DisplayName("Incorrect: Цена < 0,  0 < Скидка > 100")
+    void calculatingDiscountIncorrectDiscount(double purchaseAmount, int discountAmount) {
+        double discountCoef = 1 - (double) discountAmount/100;
+
+        assertThrows(
+                ArithmeticException.class,
+                () -> {Calculator.calculatingDiscount(purchaseAmount, discountAmount);}
+        );
+    }
+
 }
