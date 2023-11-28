@@ -8,6 +8,72 @@
     <artifactId>UnitTests</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- Создайте новый проект Maven:-->
+    <!-- Вы можете использовать команду Maven для
+    создания нового проекта или создать его с помощью
+    IDE (например, IntelliJ IDEA или Eclipse).-->
+    <dependencies>
+        <!-- Другие зависимости -->
+        <!-- AssertJ предоставляет множество методов для
+        более сложных проверок,-->
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.24.2</version> <!-- Укажите актуальную версию AssertJ -->
+<!--            <scope>test</scope>-->
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.9.2</version> <!-- Укажите актуальную версию JUnit Jupiter Params -->
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.github.stefanbirkner</groupId>
+            <artifactId>system-rules</artifactId>
+            <version>1.19.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Да, для использования JUnit Jupiter (JUnit 5)
+        в ваших тестах в Java необходимо добавить соответствующую
+        зависимость в файл pom.xml. JUnit Jupiter - это фреймворк
+        для написания тестов в Java.-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.2</version> <!-- Укажите актуальную версию JUnit Jupiter -->
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.2.0</version> <!-- Укажите актуальную версию Mockito -->
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.8.1</version> <!-- Замените на актуальную версию Selenium WebDriver -->
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>org.jacoco.core</artifactId>
+            <version>0.8.8</version> <!-- Укажите актуальную версию JaCoCo -->
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
