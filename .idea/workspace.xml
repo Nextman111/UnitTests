@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add Calculator discount method">
+    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add Test Calculator discount method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/task1/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar2/task2/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar2/task1/MathUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar2/task2/EmailValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminar1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar1/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seminar1/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar1/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,11 +60,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="seminar2.task2" />
+      <recent name="seminar2.task1" />
       <recent name="seminar1" />
       <recent name="seminars.first.seminar1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculatingDiscountIncorrectDiscount">
+  <component name="RunManager" selected="JUnit.EmailValidatorTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -77,78 +81,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar1.Main" />
+    <configuration name="EmailValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar1.*" />
+          <option name="PATTERN" value="seminar2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seminar2.task2" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.task2.EmailValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculatingDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailValidatorTest.isInValidEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar1.*" />
+          <option name="PATTERN" value="seminar2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar1" />
-      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculatingDiscount(double,int)" />
+      <option name="PACKAGE_NAME" value="seminar2.task2" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.task2.EmailValidatorTest" />
+      <option name="METHOD_NAME" value="isInValidEmailTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculatingDiscountIncorrectDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailValidatorTest.isValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar1.*" />
+          <option name="PATTERN" value="seminar2.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar1" />
-      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculatingDiscountIncorrectDiscount(double,int)" />
+      <option name="PACKAGE_NAME" value="seminar2.task2" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.task2.EmailValidatorTest" />
+      <option name="METHOD_NAME" value="isValidEmail(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testAssertArrayEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar1.*" />
+          <option name="PATTERN" value="seminar2.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar1" />
-      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAssertArrayEquals" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="seminar2.task1" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.task1.MathUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MathUtilsTest.divideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar1.*" />
+          <option name="PATTERN" value="seminar2.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar1" />
-      <option name="MAIN_CLASS_NAME" value="seminar1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAssertTrue" />
+      <option name="PACKAGE_NAME" value="seminar2.task1" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.task1.MathUtilsTest" />
+      <option name="METHOD_NAME" value="divideTest(int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.calculatingDiscountIncorrectDiscount" />
-        <item itemvalue="JUnit.CalculatorTest.calculatingDiscount" />
-        <item itemvalue="Application.seminar1.Main" />
-        <item itemvalue="JUnit.CalculatorTest.testAssertArrayEquals" />
-        <item itemvalue="JUnit.CalculatorTest.testAssertTrue" />
+        <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.EmailValidatorTest.isInValidEmailTest" />
+        <item itemvalue="JUnit.EmailValidatorTest.isValidEmail" />
+        <item itemvalue="JUnit.MathUtilsTest.divideTest" />
+        <item itemvalue="JUnit.MathUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,14 +199,33 @@
       <option name="project" value="LOCAL" />
       <updated>1701157277184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Test Calculator discount method">
+      <created>1701174934507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701174934507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial seminar1" />
     <MESSAGE value="add Calculator discount method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Calculator discount method" />
+    <MESSAGE value="add Test Calculator discount method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Test Calculator discount method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/seminar1/CalculatorTest.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
