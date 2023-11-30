@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar2" />
+    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar2 hw Tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,7 +63,7 @@
       <recent name="seminars.first.seminar1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmailValidatorTest">
+  <component name="RunManager" selected="JUnit.VehicleTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -75,79 +78,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.task2.*" />
+          <option name="PATTERN" value="seminar2.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.task2" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.task2.EmailValidatorTest" />
+      <option name="PACKAGE_NAME" value="seminar2.hw" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailValidatorTest.isInValidEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.carTestParkFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.task2.*" />
+          <option name="PATTERN" value="seminar2.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.task2" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.task2.EmailValidatorTest" />
-      <option name="METHOD_NAME" value="isInValidEmailTest(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="seminar2.hw" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
+      <option name="METHOD_NAME" value="carTestParkFalseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailValidatorTest.isValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.carTestParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.task2.*" />
+          <option name="PATTERN" value="seminar2.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.task2" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.task2.EmailValidatorTest" />
-      <option name="METHOD_NAME" value="isValidEmail(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="seminar2.hw" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
+      <option name="METHOD_NAME" value="carTestParkTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.motorcycleTestDriveFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.task1.*" />
+          <option name="PATTERN" value="seminar2.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.task1" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.task1.MathUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="seminar2.hw" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
+      <option name="METHOD_NAME" value="motorcycleTestDriveFalseTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest.divideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.motorcysleWithNoFourWheelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.task1.*" />
+          <option name="PATTERN" value="seminar2.hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.task1" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.task1.MathUtilsTest" />
-      <option name="METHOD_NAME" value="divideTest(int,int)" />
+      <option name="PACKAGE_NAME" value="seminar2.hw" />
+      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
+      <option name="METHOD_NAME" value="motorcysleWithNoFourWheelsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailValidatorTest" />
-        <item itemvalue="JUnit.EmailValidatorTest.isInValidEmailTest" />
-        <item itemvalue="JUnit.EmailValidatorTest.isValidEmail" />
-        <item itemvalue="JUnit.MathUtilsTest.divideTest" />
-        <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.VehicleTest" />
+        <item itemvalue="JUnit.VehicleTest.motorcycleTestDriveFalseTest" />
+        <item itemvalue="JUnit.VehicleTest.carTestParkFalseTest" />
+        <item itemvalue="JUnit.VehicleTest.carTestParkTest" />
+        <item itemvalue="JUnit.VehicleTest.motorcysleWithNoFourWheelsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701285818408</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add seminar2 hw prepare">
+      <created>1701286160410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701286160410</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add seminar2 hw Tests">
+      <created>1701316690463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701316690463</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,7 +234,9 @@
     <MESSAGE value="add Calculator discount method" />
     <MESSAGE value="add Test Calculator discount method" />
     <MESSAGE value="add seminar2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seminar2" />
+    <MESSAGE value="add seminar2 hw prepare" />
+    <MESSAGE value="add seminar2 hw Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar2 hw Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,5 +252,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UnitTests$VehicleTest.ic" NAME="VehicleTest Coverage Results" MODIFIED="1701338384875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar2.hw.*</FILTER>
+    </SUITE>
   </component>
 </project>
