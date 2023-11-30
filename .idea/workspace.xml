@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar2 hw Tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar3/Product.java" afterDir="false" />
+    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar3 prepare">
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar3/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar3/StoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar3/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar3/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar3/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar3/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,13 +60,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="seminar3" />
       <recent name="seminar2.task2" />
       <recent name="seminar2.task1" />
       <recent name="seminar1" />
       <recent name="seminars.first.seminar1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTest">
+  <component name="RunManager" selected="JUnit.CartTest.removeProduct">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -78,80 +82,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.calculateTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.hw.*" />
+          <option name="PATTERN" value="seminar3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
+      <option name="PACKAGE_NAME" value="seminar3" />
+      <option name="MAIN_CLASS_NAME" value="seminar3.CartTest" />
+      <option name="METHOD_NAME" value="calculateTotalPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTest.removeProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar3" />
+      <option name="MAIN_CLASS_NAME" value="seminar3.CartTest" />
+      <option name="METHOD_NAME" value="removeProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar3" />
+      <option name="MAIN_CLASS_NAME" value="seminar3.StoreTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.carTestParkFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest.createCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.hw.*" />
+          <option name="PATTERN" value="seminar3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
-      <option name="METHOD_NAME" value="carTestParkFalseTest" />
+      <option name="PACKAGE_NAME" value="seminar3" />
+      <option name="MAIN_CLASS_NAME" value="seminar3.StoreTest" />
+      <option name="METHOD_NAME" value="createCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.carTestParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest.findProductByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar2.hw.*" />
+          <option name="PATTERN" value="seminar3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar2.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
-      <option name="METHOD_NAME" value="carTestParkTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.motorcycleTestDriveFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar2.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar2.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
-      <option name="METHOD_NAME" value="motorcycleTestDriveFalseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.motorcysleWithNoFourWheelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar2.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar2.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar2.hw.VehicleTest" />
-      <option name="METHOD_NAME" value="motorcysleWithNoFourWheelsTest" />
+      <option name="PACKAGE_NAME" value="seminar3" />
+      <option name="MAIN_CLASS_NAME" value="seminar3.StoreTest" />
+      <option name="METHOD_NAME" value="findProductByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="JUnit.VehicleTest.motorcycleTestDriveFalseTest" />
-        <item itemvalue="JUnit.VehicleTest.carTestParkFalseTest" />
-        <item itemvalue="JUnit.VehicleTest.carTestParkTest" />
-        <item itemvalue="JUnit.VehicleTest.motorcysleWithNoFourWheelsTest" />
+        <item itemvalue="JUnit.CartTest.removeProduct" />
+        <item itemvalue="JUnit.CartTest.calculateTotalPrice" />
+        <item itemvalue="JUnit.StoreTest" />
+        <item itemvalue="JUnit.StoreTest.createCart" />
+        <item itemvalue="JUnit.StoreTest.findProductByName" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701316690463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add seminar3 prepare">
+      <created>1701377647540</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701377647540</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,7 +247,8 @@
     <MESSAGE value="add seminar2" />
     <MESSAGE value="add seminar2 hw prepare" />
     <MESSAGE value="add seminar2 hw Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seminar2 hw Tests" />
+    <MESSAGE value="add seminar3 prepare" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar3 prepare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,8 +266,17 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UnitTests$StoreTest_createCart.ic" NAME="StoreTest.createCart Coverage Results" MODIFIED="1701381021142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$StoreTest.ic" NAME="StoreTest Coverage Results" MODIFIED="1701381091871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar3.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$VehicleTest.ic" NAME="VehicleTest Coverage Results" MODIFIED="1701338384875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminar2.hw.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$CartTest_calculateTotalPrice.ic" NAME="CartTest.calculateTotalPrice Coverage Results" MODIFIED="1701384495180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar3.*</FILTER>
     </SUITE>
   </component>
 </project>

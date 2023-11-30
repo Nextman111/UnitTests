@@ -27,6 +27,10 @@ public class Store {
         return null;
     }
 
+    public List<Product> getInventory() {
+        return inventory;
+    }
+
     public Cart createCart() {
         return new Cart();
     }
