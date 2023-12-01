@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar3 CartTests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar3/hw/MainHWTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar3/tdd/UserRepositoryTest.java" afterDir="false" />
+    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar3 Homework rdy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seminar3/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar3/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminar3/tdd/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar3/tdd/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seminar3/tdd/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar3/tdd/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="seminar2.task1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTest">
+  <component name="RunManager" selected="JUnit.UserRepositoryTest.disconnectAllNoAdminsTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -112,22 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainHWTest.isPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar3.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar3.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar3.hw.MainHWTest" />
-      <option name="METHOD_NAME" value="isPositiveTest(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
@@ -139,6 +122,22 @@
       <option name="PACKAGE_NAME" value="seminar3.tdd" />
       <option name="MAIN_CLASS_NAME" value="seminar3.tdd.UserRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.disconnectAllNoAdminsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar3.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar3.tdd" />
+      <option name="MAIN_CLASS_NAME" value="seminar3.tdd.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="disconnectAllNoAdminsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTest.disconnectAllNoAdminsTest" />
         <item itemvalue="JUnit.UserRepositoryTest" />
         <item itemvalue="JUnit.UserRepositoryTest.isAdmin" />
         <item itemvalue="JUnit.MainHWTest" />
         <item itemvalue="JUnit.MainHWTest.inIntervalTest" />
-        <item itemvalue="JUnit.MainHWTest.isPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701384762749</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add seminar3 Homework rdy">
+      <created>1701389827098</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701389827098</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add seminar3 Homework rdy">
+      <created>1701389839018</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701389839018</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +267,8 @@
     <MESSAGE value="add seminar2 hw Tests" />
     <MESSAGE value="add seminar3 prepare" />
     <MESSAGE value="add seminar3 CartTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seminar3 CartTests" />
+    <MESSAGE value="add seminar3 Homework rdy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar3 Homework rdy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,6 +288,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UnitTests$StoreTest_createCart.ic" NAME="StoreTest.createCart Coverage Results" MODIFIED="1701381021142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminar3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$UserRepositoryTest.ic" NAME="UserRepositoryTest Coverage Results" MODIFIED="1701389728403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar3.tdd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$StoreTest.ic" NAME="StoreTest Coverage Results" MODIFIED="1701381091871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminar3.*</FILTER>

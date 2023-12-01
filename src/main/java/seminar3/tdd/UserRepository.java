@@ -26,9 +26,14 @@ public class UserRepository {
      * указывающим, обладает ли пользователь админскими правами.
      * Протестируйте данную функцию. */
 
-    public boolean isAdmin(User user){
-        return user.isAdmin();
+    public int disconnectAllNoAdmins() {
+        int counter = 0;
+        for (User user : data) {
+            if (!user.isAdmin()) {
+                user.isAuthenticate = false;
+                counter++;
+            }
+        }
+        return counter;
     }
-
-
 }
