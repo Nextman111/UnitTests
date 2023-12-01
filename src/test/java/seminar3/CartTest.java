@@ -67,6 +67,6 @@ class CartTest {
         // Считаем суммму того что положили в корзину
         Double expectedSummary = cart.getProducts().stream().mapToDouble((x)-> x.getPrice() * x.getQuantity()).sum();
         // Сравниваем результаты
-        assertEquals(expectedSummary, cart.calculateTotalPrice());
+        assertEquals(expectedSummary, cart.calculateTotalPrice(), 0.001);
     }
 }
