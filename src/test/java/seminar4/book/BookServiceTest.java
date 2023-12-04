@@ -1,35 +1,71 @@
 package seminar4.book;
 
 import org.junit.jupiter.api.Test;
-import seminar4.seminar.mock.EmailSender;
-import seminar4.seminar.mock.EmailService;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 class BookServiceTest {
 
     @Test
     void findBookById() {
-    }
-
-    @Test
-    void findAllBooks() {
-        // Создаем имитацию (мок) для интерфейса BookRepository,
-        // у нас есть имплиментация в классе InMemoryBookRepository
-        // для поля bookRepository
-//        InMemoryBookRepository bookRepository = mock(InMemoryBookRepository.class);
-        InMemoryBookRepository bookRepository = new InMemoryBookRepository();
+        /**
+         *  В классе BookService есть поле данных с интерфейсом BookRepository
+         //       *  имплементацыя в классе InMemoryBookRepository, если сделать просто mock заглушку
+         * то не сможем передать и получить данные, т.к. конструктор в нём определёт по умолчанию и нет сеттеров.
+         * По этому восполюзуемся моком spy;
+         */
+        BookRepository bookRepository = spy(InMemoryBookRepository.class);
 
         // Создаем экземпляр BookService с имитацией BookRepository
         BookService bookService = new BookService(bookRepository);
 
         // Задаем ожидаемый результат
-//        String to = "user@example.com";
-//        String subject = "Добро пожаловать";
-//        String body = "Добро пожаловать на наш сайт!";
+        Book expected = new Book("2", "Book1", "Author1");
 
-        var res = bookService.findAllBooks();
-        System.out.println(res);
+        // параметр метода
+        String id = "2";
+
+        // Устанавливаем поведение для шпиона: при вызове метода getUserById вернуть ожидаемого пользователя
+        when(bookService.findBookById(id)).thenReturn(expected);
+
+
+        var condition = bookService.findBookById(id);
+        assertEquals(expected, condition);
+
+        // Проверяем, что метод findAll был вызван ровно один раз с правильными аргументами
+        verify(bookRepository, times(1)).findById(id);
+    }
+
+    @Test
+    void findAllBooks() {
+        /**
+         *  В классе BookService есть поле данных с интерфейсом BookRepository
+//       *  имплементацыя в классе InMemoryBookRepository, если сделать просто mock заглушку
+         * то не сможем передать и получить данные, т.к. конструктор в нём определёт по умолчанию и нет сеттеров.
+         * По этому восполюзуемся моком spy;
+         */
+        BookRepository bookRepository = spy(InMemoryBookRepository.class);
+
+        // Создаем экземпляр BookService с имитацией BookRepository
+        BookService bookService = new BookService(bookRepository);
+
+        // Задаем ожидаемый результат
+        List<Book> expected = new ArrayList<>();
+        expected.add(new Book("1", "Book1", "Author1"));
+        expected.add(new Book("2", "Book2", "Author2"));
+
+        // Устанавливаем поведение для шпиона: при вызове метода getUserById вернуть ожидаемого пользователя
+        when(bookService.findAllBooks()).thenReturn(expected);
+
+
+        var condition = bookService.findAllBooks();
+        assertEquals(expected, condition);
+
+        // Проверяем, что метод findAll был вызван ровно один раз с правильными аргументами
+        verify(bookRepository, times(1)).findAll();
     }
 }

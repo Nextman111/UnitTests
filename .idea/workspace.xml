@@ -4,48 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar3 Homework rdy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/InMemoryBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/card/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/card/PaymentForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/database/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/dummi/OrderProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/fake/FakePaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/fake/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/fake/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/hotel/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/hotel/HotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/message/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/message/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/mock/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/mock/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/spy/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/spy/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/spy/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/sub/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/sub/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/weather/WeatherReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/weather/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/card/PaymentFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/database/DataProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/dummi/OrderProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/fake/OrderServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/hotel/BookingServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/message/NotificationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/mock/EmailServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/spy/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/stub/PaymentGatewayStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/stub/PaymentProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/weather/WeatherReporterTest.java" afterDir="false" />
+    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +75,7 @@
       <recent name="seminar4.seminar" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTest.findAllBooks">
+  <component name="RunManager" selected="JUnit.BookServiceTest.findBookById">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -140,6 +101,22 @@
       <option name="PACKAGE_NAME" value="seminar4.book" />
       <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
       <option name="METHOD_NAME" value="findAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.findBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar4.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="findBookById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,21 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar4.seminar.dummi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar4.seminar.stub" />
-      <option name="MAIN_CLASS_NAME" value="seminar4.seminar.stub.PaymentProcessorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
@@ -208,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookServiceTest.findBookById" />
         <item itemvalue="JUnit.BookServiceTest.findAllBooks" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.EmailServiceTest" />
         <item itemvalue="JUnit.EmailServiceTest.testSendWelcomeEmailWithMock" />
-        <item itemvalue="JUnit.PaymentProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701391070050</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add seminar4">
+      <created>1701722079648</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701722079648</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -324,7 +293,8 @@
     <MESSAGE value="add seminar3 prepare" />
     <MESSAGE value="add seminar3 CartTests" />
     <MESSAGE value="add seminar3 Homework rdy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seminar3 Homework rdy" />
+    <MESSAGE value="add seminar4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
