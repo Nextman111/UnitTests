@@ -5,9 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar3 Homework rdy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/book/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/card/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/card/PaymentForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/database/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/dummi/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/fake/FakePaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/fake/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/fake/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/hotel/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/hotel/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/message/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/message/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/mock/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/mock/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/spy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/spy/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/spy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/sub/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/sub/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/weather/WeatherReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar4/seminar/weather/WeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/card/PaymentFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/database/DataProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/dummi/OrderProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/fake/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/hotel/BookingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/message/NotificationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/mock/EmailServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/spy/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/stub/PaymentGatewayStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/stub/PaymentProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar4/seminar/weather/WeatherReporterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminar3/tdd/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminar3/tdd/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seminar3/tdd/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar3/tdd/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -33,39 +72,49 @@
     </option>
   </component>
   <component name="ProjectId" id="2YmC90HSPXqXUxEPjHc5uEgxpLD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/lernGeekBrains/UnitTests/JAVA/UnitTests/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/lernGeekBrains/UnitTests/JAVA/UnitTests/libs&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "D:/lernGeekBrains/UnitTests/JAVA/UnitTests/src/test/java",
+    "last_opened_file_path": "D:/lernGeekBrains/UnitTests/JAVA/UnitTests/libs",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="seminar4.seminar.fake" />
+      <recent name="seminar4.seminar.spy" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="seminar4.seminar.dummi" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="seminar3.tdd" />
-      <recent name="seminar3.hw" />
-      <recent name="seminar3" />
-      <recent name="seminar2.task2" />
-      <recent name="seminar2.task1" />
+      <recent name="seminar4.book" />
+      <recent name="seminar4.seminar.fake" />
+      <recent name="seminar4.seminar.spy" />
+      <recent name="seminar4.seminar.mock" />
+      <recent name="seminar4.seminar" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTest.disconnectAllNoAdminsTest">
+  <component name="RunManager" selected="JUnit.BookServiceTest.findAllBooks">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
       <module name="UnitTests" />
@@ -80,91 +129,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainHWTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.findAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar3.hw.*" />
+          <option name="PATTERN" value="seminar4.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar3.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar3.hw.MainHWTest" />
+      <option name="PACKAGE_NAME" value="seminar4.book" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.book.BookServiceTest" />
+      <option name="METHOD_NAME" value="findAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar4.seminar.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar4.seminar.mock" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.seminar.mock.EmailServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainHWTest.inIntervalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailServiceTest.testSendWelcomeEmailWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar3.hw.*" />
+          <option name="PATTERN" value="seminar4.seminar.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar3.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar3.hw.MainHWTest" />
-      <option name="METHOD_NAME" value="inIntervalTest(int)" />
+      <option name="PACKAGE_NAME" value="seminar4.seminar.mock" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.seminar.mock.EmailServiceTest" />
+      <option name="METHOD_NAME" value="testSendWelcomeEmailWithMock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar3.tdd.*" />
+          <option name="PATTERN" value="seminar4.seminar.dummi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminar3.tdd.UserRepositoryTest" />
+      <option name="PACKAGE_NAME" value="seminar4.seminar.stub" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.seminar.stub.PaymentProcessorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.disconnectAllNoAdminsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar3.tdd.*" />
+          <option name="PATTERN" value="seminar4.seminar.spy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminar3.tdd.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="disconnectAllNoAdminsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.isAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar3.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar3.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminar3.tdd.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="isAdmin(java.lang.String,java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="seminar4.seminar.spy" />
+      <option name="MAIN_CLASS_NAME" value="seminar4.seminar.spy.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRepositoryTest.disconnectAllNoAdminsTest" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.isAdmin" />
-        <item itemvalue="JUnit.MainHWTest" />
-        <item itemvalue="JUnit.MainHWTest.inIntervalTest" />
+        <item itemvalue="JUnit.BookServiceTest.findAllBooks" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.EmailServiceTest" />
+        <item itemvalue="JUnit.EmailServiceTest.testSendWelcomeEmailWithMock" />
+        <item itemvalue="JUnit.PaymentProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,10 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1701389839018</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add seminar3 Homework rdy">
+      <created>1701391070050</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701391070050</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial seminar1" />
     <MESSAGE value="add Calculator discount method" />
