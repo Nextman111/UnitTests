@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a95e5e82-d920-4550-9b80-8b70b5138af0" name="Changes" comment="add seminar4 hw">
       <change beforePath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seminar4/book/BookServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701722079648</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add seminar4 hw">
+      <created>1701723847262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701723847262</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,7 +300,8 @@
     <MESSAGE value="add seminar3 CartTests" />
     <MESSAGE value="add seminar3 Homework rdy" />
     <MESSAGE value="add seminar4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seminar4" />
+    <MESSAGE value="add seminar4 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar4 hw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
